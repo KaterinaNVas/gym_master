@@ -27,4 +27,16 @@ public class Group {
     public int getDuration() {
         return duration;
     }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public void setAge(Age age) {
+        this.age = age;
+    }
+
+    public void setDuration(int duration) {
+        this.duration = duration;
+    }
 }
