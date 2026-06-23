@@ -2,11 +2,8 @@ package gym;
 
 public class Coach {
 
-    //фамилия
     private String surname;
-    //имя
     private String name;
-    //отчество
     private String middleName;
 
     public Coach(String surname, String name, String middleName) {
@@ -26,4 +23,18 @@ public class Coach {
     public String getMiddleName() {
         return middleName;
     }
+
+    public void setSurname(String surname) {
+        this.surname = surname;
+    }
+
+    public void setMiddleName(String middleName) {
+        this.middleName = middleName;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+
 }
