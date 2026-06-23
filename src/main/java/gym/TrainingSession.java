@@ -1,23 +1,9 @@
 package gym;
 
 public class TrainingSession {
-
-
-    public static enum Age {
-        CHILD, ADULT
-    }
-
-    public enum DayOfWeek {
-        MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY
-    }
-
-    //группа
     private Group group;
-    //тренер
     private Coach coach;
-    //день недели
     private DayOfWeek dayOfWeek;
-    //время начала занятия
     private TimeOfDay timeOfDay;
 
     public TrainingSession(Group group, Coach coach, DayOfWeek dayOfWeek, TimeOfDay timeOfDay) {
@@ -42,6 +28,23 @@ public class TrainingSession {
     public TimeOfDay getTimeOfDay() {
         return timeOfDay;
     }
+
+    public void setGroup(Group group) {
+        this.group = group;
+    }
+
+    public void setCoach(Coach coach) {
+        this.coach = coach;
+    }
+
+    public void setDayOfWeek(DayOfWeek dayOfWeek) {
+        this.dayOfWeek = dayOfWeek;
+    }
+
+    public void setTimeOfDay(TimeOfDay timeOfDay) {
+        this.timeOfDay = timeOfDay;
+    }
+
 }
 
 
