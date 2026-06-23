@@ -3,8 +3,6 @@ package gym;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 import java.util.List;
-import static gym.TrainingSession.Age;
-import static gym.TrainingSession.DayOfWeek;
 
 
 public class TimetableTest {
