@@ -2,8 +2,6 @@ package gym;
 
 import java.util.*;
 
-import static gym.TrainingSession.DayOfWeek;
-
 
 public class Timetable {
     private Map<DayOfWeek, TreeMap<TimeOfDay, List<TrainingSession>>> timetable = new HashMap<>();

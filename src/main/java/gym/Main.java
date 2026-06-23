@@ -1,8 +1,5 @@
 package gym;
 
-import static gym.TrainingSession.Age;
-import static gym.TrainingSession.DayOfWeek;
-
 public class Main {
     public static void main(String[] args) {
         System.out.println("===== Добро пожаловать в Gym Master! =====\n");
